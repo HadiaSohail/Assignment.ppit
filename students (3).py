@@ -8,7 +8,7 @@ try:
     print("Connected To Database")
 except pyodbc.Error as e:
     print("Error in Connection", e)
-
+#this statement corrects the error
 #The 'import' statements bring in the required libraries, including Tkinter for GUI and pyodbc for database connectivity.
 #The 'try' block attempts to establish a connection to a Microsoft Access database using pyodbc.
 #The connection string specifies the driver and the path to the Access database file.
